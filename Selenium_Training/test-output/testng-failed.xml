@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="DemoWeb Shop Test(failed)">
+    <classes>
+      <class name="testngPackage.SearchFieldTest">
+        <methods>
+          <include name="votetest"/>
+        </methods>
+      </class> <!-- testngPackage.SearchFieldTest -->
+      <class name="testngPackage.BooksTest">
+        <methods>
+          <include name="books"/>
+        </methods>
+      </class> <!-- testngPackage.BooksTest -->
+      <class name="testngPackage.SubscribeTest">
+        <methods>
+          <include name="votetest"/>
+        </methods>
+      </class> <!-- testngPackage.SubscribeTest -->
+    </classes>
+  </test> <!-- DemoWeb Shop Test(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
